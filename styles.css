@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to right, #0f2027,#203a43,#2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+}
+
+.area button {
+    margin: 4rem;
+    width: 5rem;
+    height: 4rem;
+    background-color: rgb(24, 124, 111);
+    border: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.area button:hover {
+    background-color: rgb(38, 138, 219);
+}
+
+.area button i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.area .number {
+    background-color: rgb(26, 119, 111);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    min-height: 5vh;
+}
