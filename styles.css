@@ -48,3 +48,9 @@ footer {
     color: #fff;
     min-height: 5vh;
 }
+
+@media screen and (max-width: 600px) {
+    .area button {
+        margin: 1rem;
+    }
+}
